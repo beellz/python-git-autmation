@@ -1,13 +1,13 @@
 import os
 import sys
-import time
+from time import sleep
 
 os.system("git status")
 
 os.system("git add *")
 
 
-time.sleep(2)
+sleep(2)
 commit = sys.argv[1] 
 
 
