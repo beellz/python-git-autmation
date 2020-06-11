@@ -21,3 +21,5 @@ print (f" The commit u are adding is  {NewC}")
 os.system("git commit -m " +NewC)
 
 os.system("git push -u origin master")
+
+print("Done Pushing the commit to Github Congratulation")
